@@ -1,4 +1,5 @@
 - hosts: php
+  sudo: yes
 
   tasks:
 
