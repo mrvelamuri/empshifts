@@ -1,0 +1,9 @@
+- hosts: php
+
+  tasks:
+
+  - name: Clone git repository
+    git: > 
+      dest=/opt/lampp/htdocs/shiftsprod/empshifts/
+      repo=https://github.com/mrvelamuri/empshifts.git
+      update=yes
